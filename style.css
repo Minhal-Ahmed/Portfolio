@@ -1,10 +1,9 @@
-.TopNavigation{
+.TopNavigation{    
     display: inline-flex;
     justify-content: center;
     align-items: flex-start;
     gap: 768px;
-    padding: 16px 143px;
-
+    padding-left: 3%;
 }
 
 .LogoPlaceholder{
@@ -24,6 +23,7 @@ line-height: 20px; /* 111.111% */
 }
 
 .ItemNavigation{
+
 display: flex;
 align-items: center;
 gap: 8px;
@@ -78,35 +78,42 @@ gap: 10px;
     color: var(--neutrals-n-600, #344563);
     text-align: center;
     
-    /* Body / 3 - Bolder */
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 133.333% */
+    line-height: 133.333% ;
 }
 
-.header{
+
+    .header {
+        background-image: url(header\ bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:100%; /* or set it to a specific percentage like background-size: 50%; */
+        display: flex;
+        justify-content: center;
+        width: 55%;
+        align-items: center;
+        height: 150px;
+        padding: 289px 260px;
+        flex-shrink: 0;
+    }
     
-    display: inline-flex;
-    height: 846px;
-    padding: 289px 260px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-}
 
 .Text{
+    /*padding-bottom: 80%;*/
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
     position: relative;
-    padding-bottom: 100%;
 }
 
 .PrimaryText{
-
+    padding-top: -100px;
+    position: relative;
     color: var(--theme-1-neutrals-1, #091E42);
     font-family: Poppins;
     font-size: 48px;
@@ -124,7 +131,6 @@ gap: 10px;
 
 .PrimaryText2{
     width: 920px;
-    height: 98px;
     color: var(--theme-1-neutrals-3, #344563);
 
     /* Body / 1 */
@@ -154,6 +160,9 @@ flex-shrink: 0;
 
 
 .list{
+    /*    padding-top: -80%;*/
+
+    position: relative;
     display: inline-flex;
     padding: 142px;
     flex-direction: column;
@@ -162,9 +171,9 @@ flex-shrink: 0;
 }
 
 .container1{
+    padding-right: 22%;
     display: inline-flex;
     width: 1156px;
-    height: 496px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -330,7 +339,6 @@ padding-bottom: 1px;
 }
 
 .container2{
-    padding-left: 11%;
     display: flex;
     width: 1156px;
     height: 496px;
@@ -392,7 +400,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .container3{
-padding-left: 11%;
+padding-left: 1%;
     display: flex;
     width: 1156px;
     height: 496px;
@@ -475,7 +483,7 @@ letter-spacing: 0.51px;
 
 .container4{
     display: inline-flex;
-    padding-left: 11%;
+    padding-left: 1%;
     display: flex;
     width: 1156px;
     height: 496px;
@@ -508,6 +516,7 @@ letter-spacing: 0.51px;
 }
 
 .AboutMyself{
+background-image: url(about\ myself\ -\ background-\ shape-\ desktop.png);
 display: inline-flex;
 width: 1440px;
 height: 924px;
@@ -517,6 +526,10 @@ fill: var(--neutrals-n-0, #FFF);
 }
 
 .LeftBlock9{
+justify-content: left;
+justify-items: left;
+padding-right:20%;
+
 display: inline-flex;
 flex-direction: column;
 align-items: flex-start;
@@ -573,7 +586,7 @@ gap: 24px;
     letter-spacing: 0.51px;
 }
 
-.frame12{
+.rightblock{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -600,7 +613,7 @@ gap: 24px;
 }
 
 .B3{
-    display: flex;
+display: flex;
 padding: 8px;
 align-items: flex-start;
 border-radius: 8px;
@@ -657,4 +670,5 @@ gap: 12px;
     width: 684px;
     height: 72px;
 }
+
 
