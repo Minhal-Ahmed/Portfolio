@@ -87,16 +87,15 @@ gap: 10px;
 
 
     .header {
-        
         background-image: url(header\ bg.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size:100%; /* or set it to a specific percentage like background-size: 50%; */
         display: flex;
         justify-content: center;
-        width: 55%;
+        width: 50%;
         align-items: center;
-        height: 100px;
+        height: 0px;
         padding: 289px 260px;
         flex-shrink: 0;
     }
@@ -161,8 +160,6 @@ flex-shrink: 0;
 
 
 .list{
-    /*    padding-top: -80%;*/
-
     position: relative;
     display: inline-flex;
     padding: 142px;
@@ -179,6 +176,7 @@ flex-shrink: 0;
     align-items: center;
     flex-shrink: 0;
     border-radius: 24px;
+
 
 }
 
@@ -206,6 +204,7 @@ flex-shrink: 0;
 }
 
 .LeftBlock{
+    padding-top: -10%;
 padding-left: 4%;
 display: inline-flex;
 flex-direction: column;
@@ -214,6 +213,7 @@ gap: 24px;
 }
 
 .P1{
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -350,6 +350,7 @@ padding-bottom: 1px;
 }
 
 .cont2{
+    
     display: inline-flex;
     width: 1156px;
     height: 496px;
@@ -392,12 +393,26 @@ gap: 24px;
 }
 
 .img2{
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+
 width: 544px;
 height: 448px;
 flex-shrink: 0;
 border-radius: 8px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
+}
+
+.img2:hover{
+    
+    background-color: #ffcccc;
+    width: 200px;
+    height: 200px;
+    rotate: 180deg;
 }
 
 .container3{
@@ -452,18 +467,27 @@ padding-left: 1%;
 
 .b2{
 
+    background:rgb(247, 238, 238) ; /* Set initial background color to white */
+    transition: background-color 0.3s ease; 
+
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     border-radius: 8px;
-    background: var(--primary-b-500, #4053FC);
-    
-    /* Button/1 */
-    box-shadow: 0px 8px 16px 0px rgba(64, 83, 252, 0.24);
+    border-color: #4053FC;
+    /* box-shadow: 0px 8px 16px 0px rgba(64, 83, 252, 0.24);
+        background: var(--primary-b-500, #4053FC);
+    */
+}
+
+.b2:hover {
+    background: var(--primary-b-500, #4053FC); /* Change background to blue on hover */
+
 }
 
 .see2{
-color: var(--neutral-n-0, #FFF);
+    color: #4053FC;
+/*color: var(--neutral-n-0, #FFF);*/
 text-align: center;
 
 font-family: Poppins;
@@ -474,13 +498,9 @@ line-height:141.176%;
 letter-spacing: 0.51px;
 }
 
-.cursor{
-    width: 56.999px;
-    height: 56.999px;
-    transform: rotate(-40.539deg);
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+.see2:hover{
+    color: #CFD8DC;
 }
-
 
 .container4{
     display: inline-flex;
