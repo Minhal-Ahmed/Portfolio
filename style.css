@@ -1,9 +1,11 @@
+@media only screen and (min-width:768px){
+
 .TopNavigation{    
     display: inline-flex;
     justify-content: center;
     align-items: flex-start;
     gap: 768px;
-    padding-left: 3%;
+    padding-left: 10%;
 }
 
 .LogoPlaceholder{
@@ -88,14 +90,15 @@ gap: 10px;
 
     .header {
         background-image: url(header\ bg.jpg);
-        background-position: center;
+        /*background-position: center;*/
         background-repeat: no-repeat;
         background-size:100%; /* or set it to a specific percentage like background-size: 50%; */
         display: flex;
         justify-content: center;
-        width: 50%;
+        width: 900px;
+        padding-left: 70%;
         align-items: center;
-        height: 0px;
+        height: 20px;
         padding: 289px 260px;
         flex-shrink: 0;
     }
@@ -169,11 +172,10 @@ flex-shrink: 0;
 }
 
 .container1{
-    padding-right: 22%;
+    padding-left: 5%;
     display: inline-flex;
-    width: 1156px;
+    width: 1200px;
     justify-content: center;
-    align-items: center;
     flex-shrink: 0;
     border-radius: 24px;
 
@@ -181,10 +183,8 @@ flex-shrink: 0;
 }
 
 .cont1{
-    padding-top: 4%;
-    padding-left: 2%;
     display: inline-flex;
-    width: 1156px;
+    width: 1200px;
     height: 496px;
     flex-shrink: 0;
     border-radius: 24px;
@@ -194,18 +194,17 @@ flex-shrink: 0;
 }
 
 .img1{
-    width: 544px;
-    height: 448px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    padding-left: 0%;
+    padding-left: 2%;
+width: 544px;
+flex-shrink: 0;
+border-radius: 8px;
+padding-top: 2%;
 
 }
 
 .LeftBlock{
-    padding-top: -10%;
-padding-left: 4%;
+padding-top: -10%;
+padding-left: 5%;
 display: inline-flex;
 flex-direction: column;
 gap: 24px;
@@ -340,24 +339,25 @@ padding-bottom: 1px;
 }
 
 .container2{
-    display: flex;
-    width: 1156px;
-    height: 496px;
+    padding-left: 11%;
+    display: inline-flex;
+    width: 1200px;
     justify-content: center;
-    align-items: center;
     flex-shrink: 0;
     border-radius: 24px;
+
+
 }
 
 .cont2{
-    
     display: inline-flex;
-    width: 1156px;
+    width: 1200px;
     height: 496px;
     flex-shrink: 0;
     border-radius: 24px;
     border: 1px solid var(--neutrals-n-40, #DFE1E6);
     background: var(--neutrals-n-0, #FFF);
+
 }
 
 .LeftBlock2{
@@ -408,7 +408,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .img2:hover{
-    
+
     background-color: #ffcccc;
     width: 200px;
     height: 200px;
@@ -416,10 +416,11 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .container3{
-padding-left: 1%;
+    padding-left: 11%;
     display: flex;
-    width: 1156px;
     height: 496px;
+    width: 1200px;
+
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -430,7 +431,7 @@ padding-left: 1%;
     padding-left: 2%;
     padding-top: 4%;
     display: inline-flex;
-    width: 1156px;
+    width: 1200px;
     height: 496px;
     flex-shrink: 0;
     border-radius: 24px;
@@ -504,9 +505,10 @@ letter-spacing: 0.51px;
 
 .container4{
     display: inline-flex;
-    padding-left: 1%;
+    padding-left: 11%;
+
     display: flex;
-    width: 1156px;
+    width: 1200px;
     height: 496px;
     justify-content: center;
     align-items: center;
@@ -519,7 +521,7 @@ letter-spacing: 0.51px;
     padding-top: 4%;
     padding-left: 2%;
     display: inline-flex;
-    width: 1156px;
+    width: 1200px;
     height: 496px;
     flex-shrink: 0;
     border-radius: 24px;
@@ -534,13 +536,16 @@ letter-spacing: 0.51px;
     flex-shrink: 0;
     border-radius: 8px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
 }
+
 
 .AboutMyself{
 background-image: url(about\ myself\ -\ background-\ shape-\ desktop.png);
 display: inline-flex;
-width: 1440px;
+width: 1200px;
 height: 100px;
+padding-left: 15%;
 padding-top: 30%;
 flex-shrink: 0;
 fill: var(--neutrals-n-0, #FFF);
@@ -705,10 +710,9 @@ gap: 12px;
 }
 
 .form{
-
-background-image: url(contact\ form-\ background-shape-desktop.png);
-    width: 1200px;
-    height: 846px;
+    background-image: url(contact\ form-\ background-shape-desktop.png);
+    width: 1440px;
+    height: 780px;
     flex-shrink: 0;
     fill: var(--primary-b-400, #6070FF);
     
@@ -824,3 +828,232 @@ background-image: url(contact\ form-\ background-shape-desktop.png);
     line-height: 24px; /* 141.176% */
     letter-spacing: 0.51px;
 }
+}
+
+
+@media only screen and (min-width:375px) and (max-width:414px){
+
+    .TopNavigation{
+            display: flex;
+            width: 375px;
+            height: 48px;
+            padding: 4px 24px 4px 12px;
+            align-items: flex-start;
+            gap: 199px;
+            flex-shrink: 0;
+    }
+    
+    .LogoPlaceholder{
+        display: flex;
+        padding: 10px 12px;
+        align-items: center;
+    }
+    
+    .Logo{
+        color: var(--primary-b-400, #6070FF);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; 
+    }
+    
+    .tertiary{
+        display: flex;
+        padding-left: 250%;
+        align-items: flex-start;
+        border-radius: 8px;
+    }
+    
+    .three{
+        width: 24px;
+        height: 24px;
+    }
+    
+    .header{
+        background-image: url(header-shapes\ mobile.png);
+    
+        display: inline-flex;
+        padding: 114px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    
+    }
+    
+    .PrimaryText{
+        display: flex;
+        width: 327px;
+        height: 150px;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--neutrals-n-800, #172B4D);
+    
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; 
+    }
+    
+    .PrimaryText2{
+        width: 327px;
+        height: 146px;
+        color: var(--neutrals-n-600, #344563);
+    
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+    .LetsConnect{
+        color: var(--primary-b-300, #7F8CFF);
+    
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    
+    }
+    
+    .list{
+        display: inline-flex;
+        padding: 114px 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 88px;
+    }
+    
+    .cont1{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+        border-radius: 16px;
+        border: 1px solid var(--neutrals-n-40, #DFE1E6);
+        background: var(--neutrals-n-0, #FFF);
+    }
+    
+    .image1{
+        width: 295px;
+        height: 220px;
+        border-radius: 8px;
+        background: url(image1.png), lightgray 50% / cover no-repeat;
+    }
+    
+    .LeftBlock{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    
+    .P1{
+        width: 295px;
+        height: 36px;
+        color: var(--neutrals-n-800, #172B4D);
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; /* 137.5% */
+        padding-top: 70%;
+    }
+    
+    .Frame2{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding-top: 10%;
+    }
+    
+    .c{
+        color: var(--neutrals-n-600, #344563);
+    
+        /* Caption / 1 - Bolder */
+        font-family: Poppins;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 16px; /* 123.077% */
+    }
+    
+    .para{
+        color: var(--neutrals-n-600, #344563);
+    
+        /* Body / 3 */
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 160% */
+        width: 295px;
+        height: 76px;
+    }
+    
+    .tags{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .tag{
+        display: flex;
+        padding: 4px 12px;
+        align-items: center;
+        border-radius: 8px;
+        background: var(--primary-b-50, #EBEBFF);
+    }
+    
+    .t{
+        color: var(--primary-b-400, #6070FF);
+    
+        /* Button / Small */
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px; /* 133.333% */
+        letter-spacing: 0.36px;
+    }
+    
+    .action{
+        display: flex;
+        padding: 12px 169px 12px 0px;
+        align-items: center;
+    }
+    
+    .b1{
+        display: flex;
+        padding: 12px;
+        align-items: center;
+        gap: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--primary-b-400, #6070FF);
+    }
+    
+    .see{
+        color: var(--primary-b-500, #396DF2);
+        text-align: center;
+        
+        /* Button /Normal */
+        font-family: Poppins;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 141.176% */
+        letter-spacing: 0.51px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    }

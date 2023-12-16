@@ -18,8 +18,10 @@
 - **[Animations]**
 - **[Transitions]**
 
-### Prerequisites <a name="In order to run this project you need:vs codelive server,internet connection"></a>
-
+### Prerequisites 
+- **[VS code]**
+- **[Live Server]**
+- **[Internet Connection]**
 
 ### Deployment
 
