@@ -1,6 +1,5 @@
 @media only screen and (min-width:768px){
 
-
 .TopNavigation{    
     display: inline-flex;
     justify-content: center;
@@ -33,6 +32,9 @@ gap: 8px;
 padding-left: 280%;
 }
 
+.tertiary{
+    visibility: hidden;
+}
 .Frame4{
 display: flex;
 padding: 10px 12px;
@@ -92,6 +94,7 @@ gap: 10px;
 
     .header {
         background-image: url(header\ bg.jpg);
+        width: fit-content;
         background-repeat: no-repeat;
 height: 846px;
 padding: 289px 260px;
@@ -113,7 +116,6 @@ flex-shrink: 0;
 }
 
 .PrimaryText{
-    padding-top: -100px;
     position: relative;
     color: var(--theme-1-neutrals-1, #091E42);
     font-family: Poppins;
@@ -134,6 +136,9 @@ flex-shrink: 0;
     visibility: hidden;
 }
 
+
+
+
 .PrimaryText2{
     width: 920px;
     color: var(--theme-1-neutrals-3, #344563);
@@ -148,7 +153,6 @@ flex-shrink: 0;
 
 .LetsConnect{
     color: var(--primary-b-300, #7F8CFF);
-
 /* Body / 2 - Bolder */
 font-family: Poppins;
 font-size: 16px;
@@ -524,7 +528,6 @@ letter-spacing: 0.51px;
 .container4{
     display: inline-flex;
     padding-left: 11%;
-
     display: flex;
     width: 1200px;
     height: 496px;
@@ -535,6 +538,36 @@ letter-spacing: 0.51px;
 
 }
 
+.image4-mob{
+    visibility: hidden;
+
+}
+.Tonic4{
+    width: 496px;
+    height: 46px;
+    color: var(--Theme-1-Neutrals-1, #091E42);
+
+    /* Header / 2 */
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px; /* 130% */
+}
+
+.multipoststories2{
+    visibility: hidden;
+}
+
+.img4{
+    margin-left: -23%;
+    width: 544px;
+    height: 448px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
 .cont4{
     padding-top: 4%;
     padding-left: 2%;
@@ -545,15 +578,6 @@ letter-spacing: 0.51px;
     border-radius: 24px;
     border: 1px solid var(--neutrals-n-40, #DFE1E6);
     background: var(--neutrals-n-0, #FFF);
-
-}
-.img4{
-
-    width: 544px;
-    height: 448px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 }
 
@@ -605,10 +629,20 @@ gap: 15px;
     line-height: 24px; /* 150% */
 }
 
+.P6{
+    width: 447px;
+    height: 102px;
+    color: var(--neutrals-n-600, #344563);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
 .B2{
 
     display: flex;
-
     align-items: center;
     gap: 10px;
     border-radius: 8px;
@@ -946,7 +980,7 @@ line-height: 52px; /* 130% */
 
 .LetsConnect{
     color: var(--Primary-B300, #7F8CFF);
-
+padding-top: 10%;
     /* Body / 2 - Bolder */
     font-family: Poppins;
     font-size: 16px;
